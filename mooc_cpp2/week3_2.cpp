@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]) {
 	输出
 	对于每组测试数据，输出N的划分数。
 	*/
-	freopen("in.txt", "r", stdin);
+	// freopen("in.txt", "r", stdin);
 	int N;
 	while(scanf("%d\n", &N)!=-1) {
 		printf("%d\n", divide(N, N));
